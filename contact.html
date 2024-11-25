@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Specifies the webpage's icon displayed in the browser tab -->
+    <link rel="icon" type="image/x-icon" href="photos/favicon.PNG">
+
+    <!-- Links to the external CSS file for styling -->
+    <link rel="stylesheet" href="contact.css">
+
+    <!-- Sets the character encoding to UTF-8 -->
+    <meta charset="utf-8">
+
+    <!-- Makes the page responsive by adapting it to the device's width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Sets the title displayed in the browser tab -->
+    <title>CONTACT</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <!-- Displays the logo text -->
+        <label class="logo">Erick</label>
+
+        <!-- Displays the favicon image beside the logo -->
+        <label class="log">
+            <img src="photos/favicon.PNG" alt="fav" style="width:69px; height:40px; margin-left:30px;">
+        </label>
+
+        <!-- Navigation menu -->
+        <ul>
+            <li><a class="active" href="index.html">About me</a></li>
+            <li><a href="languages.html">Languages</a></li>
+            <li><a href="educatiom.html">Education</a></li>
+            <li><a href="Interests.html">Interests</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main container for the page content -->
+    <div class="container">
+        <div class="wrapper">
+
+            <!-- Section containing company information -->
+            <div class="company-info">
+                <h3>Feel free to reach out!</h3>
+
+                <!-- Contact details list -->
+                <ul>
+                    <li><i class="fa fa-phone"></i> +254 769745638</li><br><br>
+                    <li><i class="fa fa-phone"></i> +254 707511789</li><br><br>
+                    <li><i class="fa fa-phone"></i> +254 737035397</li><br><br>
+                    <li><i class="fa fa-road"></i> 4097 Chptiret Eldoret</li><br><br>
+                    <li><i class="fa fa-envelope"></i> erickjoshua8300@gmail.com</li>
+                </ul>
+            </div>
+            <!-- End .company-info -->
+
+            <!-- Section containing the contact form -->
+            <div class="contact">
+                <h3>E-mail Me</h3>
+
+                <!-- Contact form for user input -->
+                <form id="contact-form" method="post">
+
+                    <!-- Input field for the user's name -->
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+
+                    <!-- Input field for the user's company (optional) -->
+                    <p>
+                        <label>Company</label>
+                        <input type="text" name="company" id="company">
+                    </p>
+
+                    <!-- Input field for the user's email address -->
+                    <p>
+                        <label>E-mail Address</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+
+                    <!-- Input field for the user's phone number (optional) -->
+                    <p>
+                        <label>Phone Number</label>
+                        <input type="text" name="phone" id="phone">
+                    </p>
+
+                    <!-- Textarea for the user's message -->
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+
+                    <!-- Submit button that links to the user's email -->
+                    <button>
+                        <a href="mailto:erickjoshua8300@gmail.com" class="bol">Submit</a>
+                    </button>
+                </form>
+                <!-- End #contact-form -->
+            </div>
+            <!-- End .contact -->
+
+        </div>
+        <!-- End .wrapper -->
+    </div>
+    <!-- End .container -->
+</body>
+</html>

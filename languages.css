@@ -1,0 +1,137 @@
+::-webkit-scrollbar{
+    display: none;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing:border-box ;
+  }
+  body{
+    font-family: montserrat;
+    background-color: white;
+    width: 100%;
+      }
+  .alpha{
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.7)), url(photos/Programming3.jpg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+  }
+  nav{
+    background: none;
+    height: 71px;
+    width: 100%;
+  }
+  .logo{
+    color: rgb(21, 183, 233);
+    font-size: 42px;
+    line-height: 80px;
+    padding: 0; 
+    font-family: Cambria;
+  
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li:hover{
+    transform:scale(1.1);
+    z-index: 0.5;
+  }
+  nav ul li a{
+   color:rgb(21, 183, 233);
+   font-size :17px;
+   padding:7px 31px ;
+   text-transform: uppercase;
+   border-radius: 3px ;
+  
+  }
+  a:hover{
+    background:rgb(26, 59, 126);
+    transition: .5s;
+    transform:scale(1.1);
+    z-index: 0.5;
+    
+  }
+   div{
+    font-size: 20px;
+  }
+  .welcome1{
+    color: white;
+    margin-left: 37%;
+  }
+      
+  .p2{
+    margin-left:40%;
+    margin-top: 30px;
+    color: rgb(217, 163, 226);
+    font-size: 24px;
+    font-weight: 500px;
+  }
+  .welcome{
+    margin-top: 40px;
+    
+  }
+  
+  h2{
+    text-align: center;
+    color: rgb(27, 135, 223);
+  }
+  .progress-bar {
+    width: 500px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: rgb(81, 81, 216);
+    width: 90%; /* Adjust this to change the fill percentage */
+  }
+  .progress-bar1 {
+    width: 500px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .progress1 {
+    height: 100%;
+    background-color: rgb(81, 81, 216);
+    width: 100%; /* Adjust this to change the fill percentage */
+  }
+  .progress-bar2 {
+    width: 500px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .progress2 {
+    height: 100%;
+    background-color: rgb(81, 81, 216);
+    width: 80%; /* Adjust this to change the fill percentage */
+  }
+  .progress-bar3 {
+    width: 500px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  .progress3 {
+    height: 100%;
+    background-color: rgb(81, 81, 216);
+    width: 70%; /* Adjust this to change the fill percentage */
+  }
+     
+  
+  
