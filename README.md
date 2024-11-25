@@ -27,22 +27,16 @@ CSS3: For styling and layout design.
 
 ### 📖 How to Use
 
-Clone the repository:
-bash
+1. Clone the repository:
 
-Copy code
+![image](https://github.com/user-attachments/assets/e0391800-c51d-46fd-af54-b6bd56c1d662)
 
-git clone https://github.com/your-username/your-repo-name.git
 
-Navigate to the project folder:
+2. Navigate to the project folder:
 
-bash
+![image](https://github.com/user-attachments/assets/455012fd-19c0-4e47-acb5-1add297d9025)
 
-Copy code
-
-cd your-repo-name
-
-Open index.html in your browser to view the website locally.
+3. Open index.html in your browser to view the website locally.
 
 ### 🤝 Contributions
 
