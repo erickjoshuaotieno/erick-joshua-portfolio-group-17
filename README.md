@@ -44,5 +44,6 @@ Feedback and suggestions are welcome! Feel free to fork this repository, create 
 
 ### 📬 Contact
 
-If you'd like to collaborate or have any questions, feel free to reach out through the contact section on my portfolio.
+If you'd like to collaborate or have any questions, feel free to reach out through the contact section on [my portfolio](https://erick-joshua-portfolio.netlify.app/)
+
 
